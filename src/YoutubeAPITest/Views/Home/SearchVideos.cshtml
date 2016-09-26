@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IList<YoutubeAPITest.Models.Video>
+
+<ul>
+    @foreach (var video in Model)
+    {
+        <li>@video.Title</li>
+    }
+</ul>
