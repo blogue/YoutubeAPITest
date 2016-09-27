@@ -32,10 +32,10 @@ namespace YoutubeAPITest.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> SearchVideos()
+        public async Task<IActionResult> SearchVideos(string searchTerm)
         {
             Search newSearch = new Search();
-            var result = await newSearch.Run();
+            var result = await newSearch.Run(searchTerm);
             return View(result);
         }
     }

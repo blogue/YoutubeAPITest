@@ -1,5 +1,5 @@
---temp-output:c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\obj\Debug\netcoreapp1.0\
---out:c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\bin\Debug\netcoreapp1.0\YoutubeAPITest.dll
+--temp-output:C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\bin\Debug\netcoreapp1.0\YoutubeAPITest.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -202,9 +202,9 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\obj\Debug\netcoreapp1.0\YoutubeAPITestdotnet-compile.deps.json",YoutubeAPITest.deps.json
-c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Program.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Startup.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Controllers\HomeController.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Models\Search.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Models\Video.cs
+--resource:"C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\obj\Debug\netcoreapp1.0\YoutubeAPITestdotnet-compile.deps.json",YoutubeAPITest.deps.json
+C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Program.cs
+C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Startup.cs
+C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Controllers\HomeController.cs
+C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Models\Search.cs
+C:\Users\epicodus\documents\visual studio 2015\Projects\YoutubeAPITest\src\YoutubeAPITest\Models\Video.cs

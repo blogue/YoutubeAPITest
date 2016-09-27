@@ -28,27 +28,8 @@ namespace YoutubeAPITest.Models
     public class Search
     {
         public Search() { }
-        public static void TestSearch() { 
-            Console.WriteLine("YouTube Data API: Search");
-            Console.WriteLine("========================");
 
-            try
-            {
-                new Search().Run().Wait();
-            }
-            catch (AggregateException ex)
-            {
-                foreach (var e in ex.InnerExceptions)
-                {
-                    Console.WriteLine("Error: " + e.Message);
-                }
-            }
-
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
-
-        public async Task<List<Video>> Run()
+        public async Task<List<Video>> Run(string searchTerm)
         {
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
@@ -57,8 +38,8 @@ namespace YoutubeAPITest.Models
             });
 
             var searchListRequest = youtubeService.Search.List("snippet");
-            searchListRequest.Q = "Jiu Jitsu"; // Replace with your search term.
-            searchListRequest.MaxResults = 50;
+            searchListRequest.Q = searchTerm; // Replace with your search term.
+            searchListRequest.MaxResults = 10;
 
             // Call the search.list method to retrieve results matching the specified query term.
             var searchListResponse = await searchListRequest.ExecuteAsync();
